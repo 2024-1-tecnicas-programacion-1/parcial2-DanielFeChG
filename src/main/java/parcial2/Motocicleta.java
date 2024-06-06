@@ -13,4 +13,7 @@ public class Motocicleta extends Vehiculo{
     public void setTipoMotocicleta(TipoMotocicleta tipoMotocicleta){
         this.tipoMotocicleta = tipoMotocicleta;
     }
+    public TipoMotocicleta getTipoMotocicleta(){
+        return tipoMotocicleta;
+    }
 }
